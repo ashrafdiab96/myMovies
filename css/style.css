@@ -1,0 +1,102 @@
+/* Start body */
+body {
+    background-color: #13151f !important;
+}
+/* End body */
+
+/* Start card (all div) */
+.movie-card,
+.tv-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-card img,
+.tv-card img {
+    transition: all 1s;
+}
+
+.movie-card a,
+.tv-card a {
+    cursor: pointer;
+}
+/* End card */
+
+/* Show the description on hover */
+.movie-card:hover .movie-desc,
+.tv-card:hover .tv-desc {
+    top: 5%;
+}
+
+/* increase image size on hover */
+.movie-card:hover img,
+.tv-card:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+/* Start desc (div which include the description) */
+.movie-desc,
+.tv-desc {
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 20px;
+    transition: all 1s;
+    color: #fff;
+    text-align: center;
+}
+/* End desc (div which include the description) */
+
+/* Srat rating style */
+.rate {
+    color: orange;
+}
+
+/* List of pagination style */
+.pagination li {
+    cursor: pointer;
+}
+
+/* Active the clicked link */
+.activeLink {
+  color: red !important;
+}
+
+/* Start the style of detailes page */
+.movie-detailes {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.movie-detailes .back {
+    color: #fff;
+}
+/* End the style of detailes page */
+
+/* Start the Contact us page */
+.form {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 60%;
+}
+
+.form div input,
+.form div textarea,
+.form div button {
+    border-radius: 12px;
+}
+
+.req {
+    color: red;
+}
+
+
+/* End the Contact us page */
